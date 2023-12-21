@@ -1,5 +1,5 @@
 {% set name = "folium-pmtiles" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/folium_pmtiles-{{ version }}.tar.gz
-  sha256: f932509bb225374c3cf3a92ffc310f31291c15b20ca5e15827c4dfcc755aa458
+  sha256: 0ba03b496928c56c0df1bf0e5d366c7b50a815451994c1e9f1b8512e510003dd
 
 build:
   noarch: python
